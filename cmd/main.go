@@ -94,7 +94,7 @@ func scan(scopes []string) (ScanResult, error) {
 						Type:    "github-workflow",
 					},
 					{
-						Module:  "actions/setup-g",
+						Module:  "actions/setup-go",
 						Version: "v5",
 						Scope:   "build",
 						Type:    "github-workflow",
